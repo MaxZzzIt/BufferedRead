@@ -7,9 +7,9 @@ import java.io.BufferedReader;
 public class BufferedRead {
 
 	public static void main(String[] args) throws IOException {
-		System.out.println("Введите число ");
+		System.out.println("Р’РІРµРґРёС‚Рµ С‡РёСЃР»Рѕ ");
 		BufferedReader BR = new BufferedReader(new InputStreamReader(System.in));
 		int number = Integer.parseInt(BR.readLine());
-		System.out.println("Вы ввели число = "+number);
+		System.out.println("Р’С‹ РІРІРµР»Рё С‡РёСЃР»Рѕ = "+number);
 }
 }
